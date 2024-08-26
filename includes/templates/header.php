@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="build/css/app.css">
     <link rel="icon" href="../../src/img/maquina-de-gimnasio.png">
-    <title>RegisterGym</title>
+    <title>Toros Powerhouse<</title>
 </head>
 <body class="cuerpo">
     <header class="header">
@@ -14,7 +14,7 @@
         <div class="barra">
             
                 
-                <h1 ><a class="titulo" href="index.php"RegisterGym>RegisterGym</a></h1>
+                <h1 ><a class="titulo" href="index.php"RegisterGym>Toros Powerhouse</a></h1>
                
             
             
@@ -25,7 +25,7 @@
                 <nav id='nav' class="navegacion2 ">
                     <a class="navegador "  href="calculadoras.php">Calculadora</a>
                     <a class="navegador"  href="sedes.php">Sedes</a>
-                    <a class="navegador"  href="login.php">Contactanos</a>
+                    <a class="navegador"  href="login.php">Mensajes</a>
 
                 </nav>
 

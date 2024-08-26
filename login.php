@@ -12,7 +12,7 @@ require 'includes/config/database.php';
 <main class="login contenedor">
     <div class="caja">
         <a class="mensajeria" href="mensajeria.php">Revisar Mensajes</a>
-        <h1>Contacto</h1>
+        <h1>Mensajess</h1>
 
         <form action="login.php" method="POST">
 
