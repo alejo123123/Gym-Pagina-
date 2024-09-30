@@ -55,6 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
+    margin-top: 5rem;
 
     @include tablet {
         background-image: url("../../../src/img/cropped-1920-1080-692043.jpg");
@@ -70,6 +71,7 @@
                     margin-right: 0;
                 }
                 &:last-of-type {
+                    margin-top: 2rem;
                     margin-left: 0;
                 }
     }
@@ -82,6 +84,7 @@
 
     margin-left: 0;
     margin-right: 0;
+    margin-top: 5rem;
 
     @include tablet {
         margin-left: 10rem;
