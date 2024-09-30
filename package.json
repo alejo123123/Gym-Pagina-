@@ -1,13 +1,13 @@
 {
-  "name": "bienesraices",
+  "name": "gym",
   "version": "1.0.0",
-  "description": "Bienes Raices - Curso Desarrollo web Completo",
+  "description": "Pagina gym",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "author": "alejomastergg",
   "license": "ISC",
   "devDependencies": {
     "glob": "^10.3.12",

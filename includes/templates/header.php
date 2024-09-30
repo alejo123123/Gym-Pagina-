@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="build/css/app.css">
     <link rel="icon" href="../../src/img/maquina-de-gimnasio.png">
-    <title>Toros Powerhouse<</title>
+    <title>Toros Powerhouse</title>
 </head>
 <body class="cuerpo">
     <header class="header">
