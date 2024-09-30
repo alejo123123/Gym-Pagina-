@@ -26,6 +26,7 @@
                     <a class="navegador "  href="calculadoras.php">Calculadora</a>
                     <a class="navegador"  href="sedes.php">Sedes</a>
                     <a class="navegador"  href="login.php">Mensajes</a>
+                    <a class="navegador" href="ejercicios.php">Ejercicios</a>
 
                 </nav>
 
