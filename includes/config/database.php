@@ -11,7 +11,7 @@ function conectar() : mysqli {
 }
 
 
-//funcion para extraer datos
+//funcion para extraer todso los datos
 
 function obtenerdato() {
     global $db; 
@@ -19,20 +19,20 @@ function obtenerdato() {
         // Consulta SQL para obtener los datos de los planes
         $sql = "SELECT * FROM plan";
         
-        // Realizar la consulta
+        
         $consulta = mysqli_query($db, $sql);
         
-        // Verificar si se obtuvieron resultados
-        if ($consulta && mysqli_num_rows($consulta) > 0) { //revisar si el numero de filas es mayor a 0 para que se devuelva almenos 1 fila
-            return $consulta; // Devolver los resultados de la consulta
+       
+        if ($consulta && mysqli_num_rows($consulta) > 0) { 
+            return $consulta; 
         } else {
-            return false; // Devolver false si no se encontraron resultados
+            return false; 
         }
 
     } catch (\Throwable $th) {
-        // Manejar cualquier error que ocurra durante la consulta
+        
         echo "Error al obtener los datos de los planes: " . $th->getMessage();
-        return false; //devolver false en caso de error
+        return false; 
     }
 }
 
@@ -41,23 +41,23 @@ function obtenerdato() {
 function obtenerdatoprom() {
     global $db; 
     try {
-        // Consulta SQL para obtener los datos de los planes
+        // Consulta SQL para obtener los datos de promocion
         $sql = "SELECT * FROM promocion";
         
-        // Realizar la consulta
+        
         $consulta = mysqli_query($db, $sql);
         
-        // Verificar si se obtuvieron resultados
-        if ($consulta && mysqli_num_rows($consulta) > 0) { //revisar si el numero de filas es mayor a 0 para que se devuelva almenos 1 fila
-            return $consulta; // Devolver los resultados de la consulta
+        
+        if ($consulta && mysqli_num_rows($consulta) > 0) { 
+            return $consulta; 
         } else {
-            return false; // Devolver false si no se encontraron resultados
+            return false; 
         }
 
     } catch (\Throwable $th) {
-        // Manejar cualquier error que ocurra durante la consulta
+        
         echo "Error al obtener los datos de las promociones: " . $th->getMessage();
-        return false; //devolver false en caso de error
+        return false; 
     }
 }
 
@@ -66,23 +66,23 @@ function obtenerdatoprom() {
 function obtenerdatosedes() {
     global $db; 
     try {
-        // Consulta SQL para obtener los datos de los planes
+        // Consulta SQL para obtener los datos de las sedes
         $sql = "SELECT * FROM gimnasio limit 2";
         
-        // Realizar la consulta
+        
         $consulta = mysqli_query($db, $sql);
         
-        // Verificar si se obtuvieron resultados
-        if ($consulta && mysqli_num_rows($consulta) > 0) { //revisar si el numero de filas es mayor a 0 para que se devuelva almenos 1 fila
-            return $consulta; // Devolver los resultados de la consulta
+       
+        if ($consulta && mysqli_num_rows($consulta) > 0) { 
+            return $consulta; 
         } else {
-            return false; // Devolver false si no se encontraron resultados
+            return false; 
         }
 
     } catch (\Throwable $th) {
-        // Manejar cualquier error que ocurra durante la consulta
+        
         echo "Error al obtener los datos de las sedes: " . $th->getMessage();
-        return false; //devolver false en caso de error
+        return false;
     }
 }
 
@@ -91,23 +91,23 @@ function obtenerdatosedes() {
 function obtenerdatosedes2() {
     global $db; 
     try {
-        // Consulta SQL para obtener los datos de los planes
+        // Consulta SQL para obtener la ultima sede
         $sql = "SELECT * FROM gimnasio where codigo = 3";
         
-        // Realizar la consulta
+        
         $consulta = mysqli_query($db, $sql);
         
-        // Verificar si se obtuvieron resultados
-        if ($consulta && mysqli_num_rows($consulta) > 0) { //revisar si el numero de filas es mayor a 0 para que se devuelva almenos 1 fila
-            return $consulta; // Devolver los resultados de la consulta
+       
+        if ($consulta && mysqli_num_rows($consulta) > 0) { 
+            return $consulta; 
         } else {
-            return false; // Devolver false si no se encontraron resultados
+            return false; 
         }
 
     } catch (\Throwable $th) {
-        // Manejar cualquier error que ocurra durante la consulta
+        
         echo "Error al obtener los datos de las sedes: " . $th->getMessage();
-        return false; //devolver false en caso de error
+        return false; 
     }
 }
 
@@ -115,22 +115,22 @@ function obtenerdatosedes2() {
 function obtenerdatoemp() {
     global $db; 
     try {
-        // Consulta SQL para obtener los datos de los planes
+        // Consulta SQL para obtener los datos de los empleados
         $sql = "SELECT * FROM persona where dni >70000003 and dni <70000010";
-        // Realizar la consulta
+    
         $consulta = mysqli_query($db, $sql);
         
-        // Verificar si se obtuvieron resultados
-       if ($consulta && mysqli_num_rows($consulta) > 0) { //revisar si el numero de filas es mayor a 0 para que se devuelva almenos 1 fila
-            return $consulta; // Devolver los resultados de la consulta
+       
+       if ($consulta && mysqli_num_rows($consulta) > 0) { 
+            return $consulta;
         } else {
-            return false; // Devolver false si no se encontraron resultados
+            return false; 
         }
 
     } catch (\Throwable $th) {
-        // Manejar cualquier error que ocurra durante la consulta
+        
         echo "Error al obtener los datos de los empleados: " . $th->getMessage();
-        return false; //devolver false en caso de error
+        return false; 
     }
 }
 

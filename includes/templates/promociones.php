@@ -4,12 +4,12 @@
 
 <div class="promociones">
 <?php 
-    // Realizar la consulta para obtener los planes
+    // Realizar la consulta para obtener las promo
     $consulta = obtenerdatoprom();
     
-    // Verificar si se obtuvieron resultados
+   
     if ($consulta) {
-        // si se encontraron resultados escribir sobre los resultados y mostrarlos
+        
         while ($fila = mysqli_fetch_assoc($consulta)) {
 
             //se hace un div para cada prom
@@ -28,7 +28,7 @@
             echo "</div>";
         }
 
-        //si no se encuentran resultados 
+       
     } else {
         echo "No se encontraron promociones.";
     }
