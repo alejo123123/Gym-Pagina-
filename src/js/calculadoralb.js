@@ -1,4 +1,4 @@
-//declaramos variables
+
 const librasInput = document.querySelector('#libras');
 const kilosInput = document.querySelector('#kilos');
 const convertirbot = document.querySelector('#convertir');

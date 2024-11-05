@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     panelToShrink.style.flex = '0';
     listaToShow.style.display = 'block';
     btnVolver.style.display = 'block';
-    // setTimeout(() => {
-    //   listaToShow.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    // }, 500);
+    setTimeout(() => {
+      listaToShow.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 500);
   }
 
   btnSuperior.addEventListener('click', () => {
