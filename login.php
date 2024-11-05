@@ -5,7 +5,7 @@ include 'includes/config/conectar.php';
 require 'includes/config/database.php';
 ?>
 
-<!-- logo -->
+
 <img src="src/img/maquina-de-gimnasio.png" class="img" alt="logo">
 
 <!-- el login -->
