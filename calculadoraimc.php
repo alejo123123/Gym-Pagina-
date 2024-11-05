@@ -2,9 +2,9 @@
   include './includes/templates/header.php';
 ?>
 <body>
-    <!-- contenedor general -->
+   
     <div class="content">
-        <!-- contenedor imc -->
+        
         <div class="contentimc"> 
             <div class="imc">
 
@@ -16,7 +16,7 @@
                 <p>En Kg</p>
                 <input id='peso' class="peso" type="number" placeholder="ejem:70">
             </div>
-         <!-- boton calcular e input resultado -->
+         
             <button id="calcular" class="boton">Calcular</button>
             <input id='resultado'  class="resultado " type="number" placeholder="Resultado">
             <img src="src/img/maquina-de-gimnasio.png" class="img2" alt="logo">
@@ -56,7 +56,7 @@
     <?php
  include 'includes/templates/footer.php';
 ?>
-    <!-- <script type="module" src="build/js/bundle.min.js"></script> -->
+    
     <script src="./src/js/calculadoraimc.js"></script>
 </body>
 </html>
